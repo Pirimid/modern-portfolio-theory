@@ -1,0 +1,13 @@
+server:
+  port: 8991
+app:
+  dataservice:
+    config:
+      yahooapis:
+        symbolsuggestionservice:
+          url: https://query1.finance.yahoo.com/v1/finance/lookup
+spring:
+  h2:
+  console:
+    enabled: true
+    path: /h2
